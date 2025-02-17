@@ -1,0 +1,8 @@
+appium // Inicia el servidor Appium
+adb devices // Muestra los dispositivos conectados
+adb shell dumpsys window | findstr mCurrentFocus // Aplicación en uso
+
+C:\Users\USER\AppData\Local\Android\Sdk\emulator
+emulator -list-avds emulator -avd Pixel_4_API_35 -no-window // Ejecutar dispositivo modo Headless
+emulator -avd Pixel_4_API_35 -no-snapshot -gpu swiftshader_indirect // Ejecutar más rápido
+emulator -list-avds // Ver listado
